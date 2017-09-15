@@ -88,16 +88,21 @@ New combinations are created for both native and MNI space…
 
 Combines:
 V2d and V2v Left = V2 Left
+
 V2d and V2v Right = V2 Right
 
 V3d and V3v Left = V3 Left
+
 V3d and V3v Right = V3 Right
 
 V3AB Left and V3AB Right = V3AB
 
 V1 Left and Right = V1
+
 V2 Left and Right = V2
+
 V3 Left and Right = V3
+
 V4 Left and Right = V4
 
 NATIVE SPACE:
