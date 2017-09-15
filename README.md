@@ -8,6 +8,7 @@ What should be complete at this point:
 - Freesurfer segmentation recon -all
 - Retinotopy functional analysis in Freesurfer
 - All labels drawn on surface anatomy in Freesurfer
+- First level analysis (or pooling) of EPI data (e.g. an fMRI localizer)
 
 Set $FREESURFER_HOME and $SUBJECTS on Linux
 
