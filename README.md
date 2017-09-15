@@ -159,8 +159,11 @@ V3AB_vol_mask.nii.gz
 These images are all binned.
 
 V1 -V2 -V3 -V4 -V3AB
+
 V2 -V1 -V3 -V4 -V3AB
+
 V3 -V1 -V2 -V4 -V3AB
+
 V4 -V1 -V2 -V3 -V3AB
 
 >> fslmaths mask_vol_V1.label.nii.gz -sub mask_vol_V2.label.nii.gz -sub mask_vol_V3.label.nii.gz -sub mask_vol_V4.label.nii.gz -bin V1_vol_mask.nii.gz 
