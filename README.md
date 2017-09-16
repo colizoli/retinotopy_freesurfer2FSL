@@ -180,10 +180,10 @@ Matlab script also creates a new folder overlap_removed in subject directory
 OPTION INSTEAD OF STEPS (2)-(3)
 --------------------------------------
 Surface labels to MNI in one step by concatenating 2 matrices:
-Matrix1 = INVERT bbregister, fslregout.mat file 
-Matrix2 = We already ran an EPI to MNI registration in FSL with FEAT, so we have the necessary matrix in subject-specific folder (1st_Level.feat/subject/reg/examplefunc2standard.mat). Probably don't need to invert examplefunc2standard, and anyway there should be an inverted version already from FSL.
+Matrix1 = INVERT bbregister, fslregout.mat file.
+Matrix2 = We already ran an EPI to MNI registration in FSL with FEAT, so we have the necessary matrix in subject-specific folder (1st_Level.feat/subject/reg/examplefunc2standard.mat). There should be an inverted version already from FSL.
 
-FSL->Misc. Concatenate XFM (make 1 new matrix out of 2)
+FSL->Misc. Concatenate XFM (make 1 new matrix out of 20.
 APPLY XFM (when you already have matrix) to get labels into MNI space
 
 
