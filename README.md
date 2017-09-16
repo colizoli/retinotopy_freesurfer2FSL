@@ -22,8 +22,8 @@ export SUBJECTS_DIR="/home/user/FreesurferSubjects"
 --------------------------------------
 (1) bbregister_T1Surface2EpiVolume_batch.m
 --------------------------------------
-Need: 1 whole brain EPI as example_func (USE 1st_Level.feat/subject/reg/example_func.nii.gz)
-Run bbregister on this example_func.nii.gz file with the argument --init-fsl
+Need: 1 whole brain EPI as example_func (e.g. 1st_Level.feat/subject/reg/example_func.nii.gz).
+Run bbregister on this example_func.nii.gz file with the argument --init-fsl.
 I don't have to explicitly tell bbregister which T1 it needs, only which subject folder from $SUBJECTS_DIR it needs.
 bbregister uses the anatomy-surfaces to co-register to EPI.
 http://freesurfer.net/fswiki/bbregister#Synopsis
