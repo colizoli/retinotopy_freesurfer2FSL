@@ -181,8 +181,8 @@ OPTION INSTEAD OF STEPS (2)-(3)
 --------------------------------------
 Surface labels to MNI in one step by concatenating 2 matrices (surface space to native space and native space to standard space):
 
-Matrix1 = INVERT bbregister, fslregout.mat file.
-Matrix2 = We already ran an EPI to MNI registration in FSL with FEAT, so we have the necessary matrix in subject-specific folder (1st_Level.feat/subject/reg/examplefunc2standard.mat). There should be an inverted version already from FSL.
+Matrix1 = Invert bbregister file (fslregout.mat).
+Matrix2 = We already ran an EPI to MNI registration in FSL with FEAT, so we have the necessary matrix in subject-specific folder (1st_Level.feat/subject/reg/examplefunc2standard.mat). 
 
 FSL->Misc. Concatenate XFM (make 1 new matrix out of 2).
 APPLY XFM (when you already have matrix) to get labels into MNI space
