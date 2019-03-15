@@ -6,7 +6,7 @@ function [] = label2epi_batch()
 % --label /home/user/RetinotopicLabels/Labels/subject0032/lh.V1.label 
 % --subject subject0032 
 % --temp /home/user/FSL_FirstLevel_Localizer/subject0032-Localizer.feat/reg/example_func.nii.gz 
-% --reg /home/user/RetinotopicLabels/Labels/labels2vol/T1_surf2vol_EPI.dat 
+% --reg /home/user/RetinotopicLabels/Labels/subject0032/labels2vol/T1_surf2vol_EPI.dat 
 % --o /home/user/RetinotopicLabels/Labels/subject0032/vol_lh.V1.label.nii.gz
 
 dir_firstlevel_home = pwd; % To be run from the functional directory
